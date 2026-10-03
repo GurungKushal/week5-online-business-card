@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 40px 20px;
+    background:
+        radial-gradient(circle at 15% 20%, #5b21b6 0%, transparent 30%),
+        radial-gradient(circle at 85% 80%, #0369a1 0%, transparent 30%),
+        #090014;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.business-card {
+    max-width: 800px;
+    margin: auto;
+    padding: 45px;
+    background: linear-gradient(135deg, #3b0764, #7e22ce, #0e7490);
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    color: #1DB954;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#profile-name {
+    color: #1DB954;
+    font-size: 52px;
+    margin: 20px 0 10px;
+}
+
+.card-info {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.description {
+    color: #B3B3B3;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 650px;
+}
+
+button {
+    background: #1DB954;
+    color: #000000;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 0 30px;
+}
+
+button:hover {
+    background: #1ED760;
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 35px;
+    border-left: 4px solid #1DB954;
+    padding-left: 12px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.service {
+    background: #242424;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #333333;
+}
+
+.service h3 {
+    color: #1DB954;
+    font-size: 19px;
+}
+
+.service p {
+    color: #B3B3B3;
+}
+
+.contact {
+    color: #DDDDDD;
+    line-height: 2;
+}
+
+.login-form,
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.login-form input,
+.newsletter-form input {
+    padding: 14px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    background: #242424;
+    color: white;
+    font-size: 15px;
+}
+
+.login-form input:focus,
+.newsletter-form input:focus {
+    outline: none;
+    border-color: #1DB954;
+}
+
+.newsletter-text {
+    color: #B3B3B3;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .business-card {
+        padding: 25px;
+    }
+
+    #profile-name {
+        font-size: 38px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+.bike-image {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.bike-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 18px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
